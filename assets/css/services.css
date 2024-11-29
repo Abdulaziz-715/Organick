@@ -181,10 +181,12 @@ ul {
     line-height: 165.4%;
     padding-top: 5px;
 }
-.btn{
+
+.btn {
     display: flex;
     justify-content: center;
 }
+
 .better_btn {
     width: 220px;
     height: 80px;
@@ -197,4 +199,54 @@ ul {
     font-size: 20px;
     font-weight: 700;
 
+}
+
+/* only */
+.only {
+    width: 100%;
+    height: 1000px;
+    background: url(../images/main.images/only_fon.png) no-repeat;
+    background-size: cover;
+    margin-top: 200px;
+}
+.only_content{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+    gap: 50px;
+}
+.only_text {
+    color: rgb(126, 182, 147);
+    font-family: Yellowtail;
+    font-size: 36px;
+    font-weight: 400;
+    padding-top: 227px;
+}
+
+.only_title {
+    color: rgb(39, 76, 91);
+    font-family: Roboto;
+    font-size: 50px;
+    font-weight: 800;
+}
+
+.only_suptitle {
+    color: rgb(39, 76, 91);
+    font-family: Open Sans;
+    font-size: 18px;
+    font-weight: 400;
+    width: 671px;
+}
+
+.only_box {
+    width: 107px;
+    height: 107px;
+    box-shadow: -4px 10px 12px 0px rgb(219, 209, 181);
+    background: rgb(126, 182, 147);
+    border-radius: 50%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    cursor: pointer;
 }
