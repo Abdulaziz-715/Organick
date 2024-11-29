@@ -250,3 +250,116 @@ ul {
     justify-content: center;
     cursor: pointer;
 }
+
+/* Footer */
+
+.footer__wrapper{
+    padding: 30px 0px 106px 0px;
+    display: flex;
+    justify-content: center;
+    margin-top: 150px;
+}
+
+.footer__contact{
+    text-align: end;
+    padding-right: 50px;
+}
+
+.contact__title{
+    color: var(--dark-primary);
+    font-family: Roboto;
+    font-size: 30px;
+    font-weight: 700;
+    line-height: 35px;
+}
+
+.contact__connection{
+    padding-top: 32px;
+    color: var(--dark-primary);
+    font-family: Roboto;
+    font-size: 20px;
+    font-weight: 500;
+    line-height: 29px;
+}
+
+.contact__info{
+    color: var(--black);
+    font-family: Open Sans;
+    font-size: 18px;
+    font-weight: 400;
+    line-height: 165.4%;
+}
+
+.footer__organick{
+    padding: 0px 40px 0px 40px;
+    border-left: 1px solid rgb(213, 213, 213);
+    border-right: 1px solid rgb(213, 213, 213);
+}
+
+.footer__name{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 8px;
+}
+
+.organick__text{
+    width: 543px;
+    padding: 23px 0px 49px 0px;
+    color: var(--black);
+    font-family: Open Sans;
+    font-size: 18px;
+    font-weight: 400;
+    line-height: 165.4%;
+}
+
+.organick__massenger{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 15px;
+}
+
+.massenger__btn{
+    width: 60px;
+    height: 60px;
+    cursor: pointer;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border: none;
+    border-radius: 50%;
+    background: var(--glin);
+}
+
+.footer__utility{
+    padding-left: 50px;
+}
+
+.utility__suptitle{
+    color: var(--black);
+    font-family: Open Sans;
+    font-size: 18px;
+    font-weight: 400;
+    line-height: 272.9%;
+}
+
+.pd{
+    padding-top: 20px;
+}
+
+.end{
+    padding: 17px 0px 17px 0px;
+    color: var(--black);
+    font-family: Open Sans;
+    font-size: 18px;
+    font-weight: 700;
+    line-height: 165.4%;
+}
+
+.end span{
+    font-weight: 1000;
+}
+.contact_list{
+    display: block;
+}
