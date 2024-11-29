@@ -104,3 +104,22 @@ ul{
     left: 400px;
     top: 5px;
 }
+
+/* Hero */
+
+.hero {
+    height: 450px;
+    background: url(../images/main.images/services_hero.png) center no-repeat;
+    background-size: cover;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+}
+
+.hero_title {
+    font-size: 60px;
+    font-weight: 600;
+    font-family: 'Roboto';
+    color: var(--dark-primary);
+}
