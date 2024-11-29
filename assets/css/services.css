@@ -2,24 +2,26 @@
 
 /* Header */
 
-.header__wrapper{
+.header__wrapper {
     display: flex;
     justify-content: space-between;
     align-items: center;
     padding: 69px 0px;
 }
-ul{
+
+ul {
     display: flex;
     align-items: center;
     gap: 30px;
 }
-.header__name{
+
+.header__name {
     display: flex;
     align-items: center;
     gap: 8px;
 }
 
-.name{
+.name {
     color: var(--dark-primary);
     font-family: Roboto;
     font-size: 38px;
@@ -27,18 +29,18 @@ ul{
     line-height: 45px;
 }
 
-.header__nav{
+.header__nav {
     display: flex;
     gap: 130px;
 }
 
-.header__pages{
+.header__pages {
     display: flex;
     align-items: center;
     gap: 40px;
 }
 
-.list a{
+.list a {
     color: var(--dark-primary);
     font-family: Roboto;
     font-size: 20px;
@@ -46,13 +48,13 @@ ul{
     line-height: 23px;
 }
 
-.header__form{
+.header__form {
     display: flex;
     gap: 18px;
     position: relative;
 }
 
-.header__search{
+.header__search {
     width: 376px;
     height: 66px;
     border-radius: 36px;
@@ -62,7 +64,7 @@ ul{
     font-size: 25px;
 }
 
-.header__search__btn{
+.header__search__btn {
     width: 56px;
     height: 56px;
     cursor: pointer;
@@ -77,7 +79,7 @@ ul{
     top: 5px;
 }
 
-.header__shop__btn{
+.header__shop__btn {
     width: 159px;
     height: 66px;
     border: 1px solid rgb(224, 224, 224);
@@ -90,7 +92,7 @@ ul{
     line-height: 21px;
 }
 
-.header__shop{
+.header__shop {
     width: 56px;
     height: 56px;
     cursor: pointer;
@@ -122,4 +124,77 @@ ul{
     font-weight: 600;
     font-family: 'Roboto';
     color: var(--dark-primary);
+}
+
+/* better */
+
+.better_title {
+    color: rgb(126, 182, 147);
+    font-family: Yellowtail;
+    font-size: 36px;
+    font-weight: 400;
+    text-align: center;
+    padding-top: 202px;
+}
+
+.better_info {
+    color: rgb(39, 76, 91);
+    font-family: Roboto;
+    font-size: 50px;
+    font-weight: 800;
+    text-align: center;
+
+}
+
+.better_wrapper {
+    display: flex;
+    align-items: center;
+
+}
+
+.better_list {
+    display: flex;
+    flex-direction: column;
+    text-align: right;
+
+}
+
+.better_list_two {
+    display: flex;
+    flex-direction: column;
+    text-align: left;
+}
+
+.better_list_title {
+    color: rgb(39, 76, 91);
+    font-family: Roboto;
+    font-size: 25px;
+    font-weight: 500;
+    padding-top: 5px;
+}
+
+.better_list_suptitle {
+    color: rgb(82, 92, 96);
+    font-family: Open Sans;
+    font-size: 18px;
+    font-weight: 400;
+    line-height: 165.4%;
+    padding-top: 5px;
+}
+.btn{
+    display: flex;
+    justify-content: center;
+}
+.better_btn {
+    width: 220px;
+    height: 80px;
+    box-sizing: border-box;
+    border: 2px solid rgb(51, 91, 107);
+    border-radius: 16px;
+    background: rgb(249, 248, 248);
+    color: rgb(39, 76, 91);
+    font-family: Roboto;
+    font-size: 20px;
+    font-weight: 700;
+
 }
