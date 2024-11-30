@@ -106,7 +106,7 @@
 
 .products_wrapper {
     display: grid;
-    grid-template-columns: repeat(3,1fr);
+    grid-template-columns: repeat(3, 1fr);
     gap: 34px;
 }
 
@@ -203,8 +203,12 @@
 }
 
 /* hero  */
+.hero {
+    background: url(../images/main.images/hero_bg_portfolio.png) no-repeat;
+    background-size: cover;
+}
+
 .hero_wrapper {
-    background: url(../images/main.images/hero_bg_portfolio.png);
     display: flex;
     align-items: center;
     justify-content: center;
