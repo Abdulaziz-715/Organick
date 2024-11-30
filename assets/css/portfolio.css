@@ -99,6 +99,109 @@
     top: 5px;
 }
 
+/* products */
+.products {
+    padding-top: 148px;
+}
+
+.products_wrapper {
+    display: grid;
+    grid-template-columns: repeat(3,1fr);
+    gap: 34px;
+}
+
+.products_box {
+    display: flex;
+    flex-direction: column;
+}
+
+.products_title {
+    padding-top: 18px;
+    color: var(--dark-primary);
+    font-family: Roboto;
+    font-size: 25px;
+    font-weight: 800;
+    line-height: 29px;
+}
+
+.products_suptitle {
+    padding-top: 2px;
+    color: var(--green);
+    font-family: Yellowtail;
+    font-size: 22px;
+    font-weight: 400;
+    line-height: 30px;
+}
+
+.products_box_bg {
+    padding: 26px;
+    background: url(../images/main.images/limon_portfolio.png);
+    width: 451px;
+    height: 421px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border-radius: 30px;
+}
+
+
+.bg_2 {
+    background: url(../images/main.images/morkovka_portfolio.png);
+
+}
+
+.bg_3 {
+    background: url(../images/main.images/spinat.png);
+
+}
+
+.bg_4 {
+    background: url(../images/main.images/pomidor_portfolio.png);
+
+}
+
+.bg_5 {
+    background: url(../images/main.images/ejevika_portfolio.png);
+
+}
+
+.bg_6 {
+    background: url(../images/main.images/limon_dol_portfolio.png);
+}
+
+.products_box_hover {
+    display: none;
+    align-items: center;
+    justify-content: center;
+    border-radius: 30px;
+    width: 900px;
+    height: 375px;
+    background: rgb(255, 255, 255, 0.81);
+    cursor: pointer;
+
+}
+
+.products_btn {
+    display: none;
+    align-items: center;
+    justify-content: center;
+    width: 46px;
+    height: 46px;
+    border-radius: 50%;
+    border: none;
+    cursor: pointer;
+    background: var(--green);
+
+}
+
+.products_box_bg:hover .products_box_hover {
+    display: flex;
+}
+
+.products_box_bg:hover .products_btn {
+    display: flex;
+}
+
 /* hero  */
 .hero_wrapper {
     background: url(../images/main.images/hero_bg_portfolio.png);
