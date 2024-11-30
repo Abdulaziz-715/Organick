@@ -203,8 +203,13 @@
 }
 
 /* hero  */
-.hero_wrapper {
+
+.hero{
     background: url(../images/main.images/hero_bg_portfolio.png);
+}
+
+
+.hero_wrapper {
     display: flex;
     align-items: center;
     justify-content: center;
