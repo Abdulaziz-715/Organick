@@ -99,6 +99,29 @@
     top: 5px;
 }
 
+/* hero  */
+
+.hero {
+    background: url(../images/main.images/hero_bg_portfolio.png) no-repeat;
+    background-size: cover;
+}
+
+
+.hero_wrapper {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 450px;
+}
+
+.hero_title {
+    color: var(--dark-primary);
+    font-family: Roboto;
+    font-size: 70px;
+    font-weight: 800;
+    line-height: 82px;
+}
+
 /* products */
 .products {
     padding-top: 148px;
@@ -200,23 +223,6 @@
 
 .products_box_bg:hover .products_btn {
     display: flex;
-}
-
-/* hero  */
-.hero_wrapper {
-    background: url(../images/main.images/hero_bg_portfolio.png);
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    height: 450px;
-}
-
-.hero_title {
-    color: var(--dark-primary);
-    font-family: Roboto;
-    font-size: 70px;
-    font-weight: 800;
-    line-height: 82px;
 }
 
 /* Subscribe */
