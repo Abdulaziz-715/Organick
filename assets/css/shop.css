@@ -2,20 +2,20 @@
 
 /* Header */
 
-.header__wrapper{
+.header__wrapper {
     display: flex;
     justify-content: space-between;
     align-items: center;
     padding: 69px 0px;
 }
 
-.header__name{
+.header__name {
     display: flex;
     align-items: center;
     gap: 8px;
 }
 
-.name{
+.name {
     color: var(--dark-primary);
     font-family: Roboto;
     font-size: 38px;
@@ -23,18 +23,18 @@
     line-height: 45px;
 }
 
-.header__nav{
+.header__nav {
     display: flex;
     gap: 130px;
 }
 
-.header__pages{
+.header__pages {
     display: flex;
     align-items: center;
     gap: 40px;
 }
 
-.list a{
+.list a {
     color: var(--dark-primary);
     font-family: Roboto;
     font-size: 20px;
@@ -42,13 +42,13 @@
     line-height: 23px;
 }
 
-.header__form{
+.header__form {
     display: flex;
     gap: 18px;
     position: relative;
 }
 
-.header__search{
+.header__search {
     width: 376px;
     height: 66px;
     border-radius: 36px;
@@ -58,7 +58,7 @@
     font-size: 25px;
 }
 
-.header__search__btn{
+.header__search__btn {
     width: 56px;
     height: 56px;
     cursor: pointer;
@@ -73,7 +73,7 @@
     top: 5px;
 }
 
-.header__shop__btn{
+.header__shop__btn {
     width: 159px;
     height: 66px;
     border: 1px solid rgb(224, 224, 224);
@@ -86,7 +86,7 @@
     line-height: 21px;
 }
 
-.header__shop{
+.header__shop {
     width: 56px;
     height: 56px;
     cursor: pointer;
@@ -103,12 +103,12 @@
 
 /* Hero */
 
-.hero{
+.hero {
     background: url(../images/shop.images/Hero__img\ \(2\).png);
     background-size: cover;
 }
 
-.hero_title{
+.hero_title {
     padding: 220px 0px;
     font-size: 70px;
     font-weight: 600;
@@ -127,6 +127,10 @@
 }
 
 .fruit_btn {
+    padding: 0px 12px 0px 12px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
     width: 96px;
     height: 31px;
     border-radius: 8px;
@@ -164,11 +168,13 @@
     display: flex;
     gap: 81px;
 }
-.fruit_item{
-    display: flex;
-    gap: 20px;
-    justify-content: center;
+
+.fruit_item {
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    gap: 50px;
 }
+
 .box_one {
     width: 274.99px;
     height: 0;
@@ -177,7 +183,7 @@
     margin-top: 13px;
 }
 
-.span {
+.fruit_sum span {
     color: rgb(39, 76, 91);
     font-family: Open Sans;
     font-size: 18px;
@@ -187,8 +193,10 @@
 .fruit_img {
     margin-top: 13px;
     mix-blend-mode: multiply;
+    height: 323px;
 }
-.fruit_imgg{
+
+.fruit_imgg {
     mix-blend-mode: multiply;
     width: 335px;
     height: 324px;
@@ -196,13 +204,20 @@
     display: flex;
     justify-content: center;
 }
-.fruit_item{
+
+.fruit_item {
     margin-top: 100px;
+}
+
+.fruin_stars {
+    display: flex;
+    align-items: center;
+    justify-content: center;
 }
 
 /* Subscribe */
 
-.subscribe__wrapper{
+.subscribe__wrapper {
     width: 1398px;
     height: 330px;
     padding: 0px 70px 0px 70px;
@@ -216,7 +231,7 @@
     text-align: start;
 }
 
-.subscribe__title{
+.subscribe__title {
     width: 357px;
     color: rgb(255, 255, 255);
     font-family: Roboto;
@@ -225,14 +240,14 @@
     line-height: 59px;
 }
 
-.subscribe__form{
+.subscribe__form {
     display: flex;
     justify-content: center;
     align-items: center;
     gap: 6px;
 }
 
-.subscribe__input{
+.subscribe__input {
     width: 349px;
     height: 80px;
     font-size: 25px;
@@ -242,7 +257,7 @@
     background: rgb(255, 255, 255);
 }
 
-.subscribe__input::placeholder{
+.subscribe__input::placeholder {
     color: rgb(171, 171, 171);
     font-family: Roboto;
     font-style: italic;
@@ -251,7 +266,7 @@
     line-height: 21px;
 }
 
-.subscribe__btn{
+.subscribe__btn {
     width: 220px;
     height: 80px;
     cursor: pointer;
@@ -267,18 +282,18 @@
 
 /* Footer */
 
-.footer__wrapper{
+.footer__wrapper {
     padding: 30px 0px 106px 0px;
     display: flex;
     justify-content: center;
 }
 
-.footer__contact{
+.footer__contact {
     text-align: end;
     padding-right: 50px;
 }
 
-.contact__title{
+.contact__title {
     color: var(--dark-primary);
     font-family: Roboto;
     font-size: 30px;
@@ -286,7 +301,7 @@
     line-height: 35px;
 }
 
-.contact__connection{
+.contact__connection {
     padding-top: 32px;
     color: var(--dark-primary);
     font-family: Roboto;
@@ -295,7 +310,7 @@
     line-height: 29px;
 }
 
-.contact__info{
+.contact__info {
     color: var(--black);
     font-family: Open Sans;
     font-size: 18px;
@@ -303,20 +318,20 @@
     line-height: 165.4%;
 }
 
-.footer__organick{
+.footer__organick {
     padding: 0px 40px 0px 40px;
     border-left: 1px solid rgb(213, 213, 213);
     border-right: 1px solid rgb(213, 213, 213);
 }
 
-.footer__name{
+.footer__name {
     display: flex;
     align-items: center;
     justify-content: center;
     gap: 8px;
 }
 
-.organick__text{
+.organick__text {
     width: 543px;
     padding: 23px 0px 49px 0px;
     color: var(--black);
@@ -326,14 +341,14 @@
     line-height: 165.4%;
 }
 
-.organick__massenger{
+.organick__massenger {
     display: flex;
     justify-content: center;
     align-items: center;
     gap: 15px;
 }
 
-.massenger__btn{
+.massenger__btn {
     width: 60px;
     height: 60px;
     cursor: pointer;
@@ -345,11 +360,11 @@
     background: var(--glin);
 }
 
-.footer__utility{
+.footer__utility {
     padding-left: 50px;
 }
 
-.utility__suptitle{
+.utility__suptitle {
     color: var(--black);
     font-family: Open Sans;
     font-size: 18px;
@@ -357,11 +372,11 @@
     line-height: 272.9%;
 }
 
-.pd{
+.pd {
     padding-top: 20px;
 }
 
-.end{
+.end {
     padding: 17px 0px 17px 0px;
     color: var(--black);
     font-family: Open Sans;
@@ -370,6 +385,6 @@
     line-height: 165.4%;
 }
 
-.end span{
+.end span {
     font-weight: 1000;
 }
