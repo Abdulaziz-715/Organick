@@ -153,10 +153,10 @@ text-align: center;
 }
 
 .organic_list{
-display: flex;
-align-items: center;
-justify-content: space-evenly;
-margin-top: 70px;
+display: grid;
+grid-template-columns: repeat(3,1fr);
+gap: 42px;
+padding-top: 42px;
 }
 
 .organic_title{
@@ -178,7 +178,7 @@ margin-top: 70px;
 }
 
 .organic_box{
-    padding-left: 28px;
+    padding:0 28px;
     color: rgb(126, 182, 147);
     font-family: Yellowtail;
     font-size: 22px;
@@ -186,7 +186,7 @@ margin-top: 70px;
     line-height: 30px;
     display: flex;
     align-items: center;
-    gap: 271px;
+    justify-content: space-between;
     margin-top: 3px;
 }
 
