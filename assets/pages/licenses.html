@@ -34,7 +34,7 @@
         <div class="container">
             <div class="header__wrapper">
                 <div class="header__name">
-                    <img src="../images/main.images/Header_logo.svg" alt="#" class="header_logo">
+                    <img src="../images/main.images/Header__logo.svg" alt="#" class="header_logo">
                     <p><a class="name" href="./index.html">Organick</a></p>
                 </div>
 
@@ -42,7 +42,20 @@
                     <ul class="header__list">
                         <li class="list"><a class="active" href="#">Home</a></li>
                         <li class="list"><a href="../pages/about.html">About</a></li>
-                        <li class="list"><a href="">Pages</a></li>
+                        <li class="dropdown">
+                            <button onclick="myFunction()" class="dropbtn">Pages</button>
+                            <div id="myDropdown" class="dropdown-content">
+                              <a class="list" href="./blog_single/blog_single.html">Blog-single</a>
+                              <a class="list" href="./portfolio_single/portfolio_single.html">Portfolio-single</a>
+                              <a class="list" href="./service_single/service_single.html">Service_single</a>
+                              <a class="list" href="./blog.html">Blog</a>
+                              <a class="list" href="./contact.html">Contact</a>
+                              <a class="list" href="./count.html">Count</a>
+                              <a class="list" href="./portfolio.html">Portfolio</a>
+                              <a class="list" href="./services.html">Services</a>
+                              <a class="list" href="./team.html">Team</a>
+                            </div>
+                    </li>
                         <li class="list"><a href="./assets/pages/shop.html">Shop</a></li>
                         <li class="list"><a href="">Projects</a></li>
                         <li class="list"><a href="">News</a></li>
@@ -50,12 +63,25 @@
 
                     <form class="header__form">
                         <input class="header__search" type="text">
-                        <button class="header_searchbtn"><img src="../images/main.images/Search_logo.svg"
+                        <button class="header_searchbtn"><img src="../images/main.images/Search__logo.svg"
                                 alt=""></button>
                         <button class="header_shop_btn">Cart (0)</button>
-                        <button class="header_shop"><img src="../images/main.images/Shop_logo.svg" alt=""></button>
+                        <button class="header_shop"><img src="../images/main.images/Shop__logo.svg" alt=""></button>
                     </form>
                 </nav>
+
+                <div class="menu">
+                    <input type="checkbox" id="burger-checkbox" class="burger-checkbox">
+                    <label for="burger-checkbox" class="burger"></label>
+                    <ul class="menu-list">
+                        <li class="list"><a class="active" href="#">Home</a></li>
+                        <li class="list"><a href="./assets/pages/about.html">About</a></li>
+                        <li class="list"><a href="#">Pages</a></li>
+                        <li class="list"><a href="./assets/pages/shop.html">Shop</a></li>
+                        <li class="list"><a href="">Projects</a></li>
+                        <li class="list"><a href="">News</a></li>
+                    </ul>
+                </div>
             </div>
         </div>
     </header>
