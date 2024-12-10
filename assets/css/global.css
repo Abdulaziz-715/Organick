@@ -16,21 +16,65 @@
 :root {
     --green: rgb(126, 182, 147);
     --black: rgb(82, 92, 96);
-    --white: rgb(249, 248, 248);;
+    --white: rgb(249, 248, 248);
     --dark-primary: rgb(39, 76, 91);
     --gray: rgb(212, 212, 212);
     --yellow: rgb(239, 211, 114);
     --glin: rgb(239, 246, 241);
 }
 
-ul, ol{
+ul,
+ol {
     list-style: none;
 }
 
-a{
+a {
     text-decoration: none;
 }
 
-button{
+button {
     cursor: pointer;
+}
+
+
+.dropbtn {
+    background-color: #fff;
+    color: var(--dark-primary);
+    font-family: Roboto;
+    font-size: 20px;
+    font-weight: 700;
+    line-height: 23px;
+    padding: 16px;
+    border: none;
+    cursor: pointer;
+}
+
+.dropdown {
+    position: relative;
+    display: inline-block;
+}
+
+.dropdown-content {
+    background: #fff;
+    display: none;
+    border-radius: 20px;
+    position: absolute;
+    min-width: 160px;
+    box-shadow: 0px 8px 16px 0px rgba(0, 0, 0, 0.2);
+    z-index: 1;
+}
+
+.dropdown-content a {
+    color: black;
+    padding: 12px 16px;
+    text-decoration: none;
+    display: block;
+}
+
+.dropdown-content a:hover {
+    background-color: #ddd
+}
+
+.show {
+    display: block;
 }
