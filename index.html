@@ -41,7 +41,20 @@
                     <ul class="header__list">
                         <li class="list"><a class="active" href="#">Home</a></li>
                         <li class="list"><a href="./assets/pages/about.html">About</a></li>
-                        <li class="list"><a href="">Pages</a></li>
+                        <li class="dropdown">
+                                <button onclick="myFunction()" class="dropbtn">Pages</button>
+                                <div id="myDropdown" class="dropdown-content">
+                                  <a class="list" href="./assets/pages/blog_single/blog_single.html">Blog-single</a>
+                                  <a class="list" href="./assets/pages/portfolio_single/portfolio_single.html">Portfolio-single</a>
+                                  <a class="list" href="./assets/pages/service_single/service_single.html">Service_single</a>
+                                  <a class="list" href="./assets/pages/blog.html">Blog</a>
+                                  <a class="list" href="./assets/pages/contact.html">Contact</a>
+                                  <a class="list" href="./assets/pages/count.html">Count</a>
+                                  <a class="list" href="./assets/pages/portfolio.html">Portfolio</a>
+                                  <a class="list" href="./assets/pages/services.html">Services</a>
+                                  <a class="list" href="./assets/pages/team.html">Team</a>
+                                </div>
+                        </li>
                         <li class="list"><a href="./assets/pages/shop.html">Shop</a></li>
                         <li class="list"><a href="">Projects</a></li>
                         <li class="list"><a href="">News</a></li>
@@ -55,7 +68,21 @@
                         <button class="header__shop"><img src="./assets/images/main.images/Shop__logo.svg"
                                 alt=""></button>
                     </form>
+
                 </nav>
+
+                <div class="menu">
+                    <input type="checkbox" id="burger-checkbox" class="burger-checkbox">
+                    <label for="burger-checkbox" class="burger"></label>
+                    <ul class="menu-list">
+                        <li class="list"><a class="active" href="#">Home</a></li>
+                        <li class="list"><a href="./assets/pages/about.html">About</a></li>
+                        <li class="list"><a href="#">Pages</a></li>
+                        <li class="list"><a href="./assets/pages/shop.html">Shop</a></li>
+                        <li class="list"><a href="">Projects</a></li>
+                        <li class="list"><a href="">News</a></li>
+                    </ul>
+                </div>
             </div>
         </div>
     </header>
@@ -98,7 +125,7 @@
         <section class="about">
             <div class="container">
                 <div class="about__wrapper">
-                    <img src="./assets/images/main.images/About__img.png" alt="">
+                    <img class="About__img" src="./assets/images/main.images/About__img.png" alt="">
 
                     <div class="about__info">
                         <p class="about__suptitle">About Us</p>
@@ -153,8 +180,7 @@
                     
                 </ul>
 
-                <center><button class="product__btn">Load More <img src="./assets/images/main.images/Aerrow__logo.svg"
-                            alt=""></button></center>
+                <center><button class="product__btn">Load More <img src="./assets/images/main.images/Aerrow__logo.svg"alt=""></button></center>
 
             </div>
         </section>
@@ -304,8 +330,7 @@
                         <h6 class="new__title">Discover weekly content about organic food, & more</h6>
                     </div>
 
-                    <button class="new__btn">More News<img src="./assets/images/main.images/Aerrow__logo.svg"
-                            alt=""></button>
+                    <button class="new__btn">More News<img src="./assets/images/main.images/Aerrow__logo.svg" alt=""></button>
                 </div>
 
                 <div class="new__left__right">
@@ -337,7 +362,7 @@
                             <p>Nov</p>
                         </div>
 
-                        <div class="new__leftinfo">
+                        <div class="new__leftinfo  gggg">
                             <div class="new__user">
                                 <img src="./assets/images/main.images/Ava__logo.svg" alt="">
                                 <p class="leftinfo__suptitle">By Rachi Card</p>
@@ -419,10 +444,10 @@
 
                     <ul>
                         <li class="utility__suptitle pd">Style Guide</li>
-                        <li class="utility__suptitle">404 Not Found</li>
-                        <li class="utility__suptitle">Password Protected</li>
-                        <li class="utility__suptitle">Licences</li>
-                        <li class="utility__suptitle">Changelog</li>
+                        <li><a class="utility__suptitle" href="./assets/pages/error404.html">404 Not Found</a></li>
+                        <li><a class="utility__suptitle" href="./assets/pages/password.html">Password Protected</a></li>
+                        <li><a class="utility__suptitle" href="./assets/pages/licenses.html">Licences</a></li>
+                        <li><a class="utility__suptitle" href="./assets/pages/changelog.html">Changelog</a></li>
                     </ul>
                 </div>
             </div>
