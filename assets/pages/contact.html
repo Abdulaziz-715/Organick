@@ -41,11 +41,24 @@
                 <nav class="header__nav">
                     <ul class="header__list">
                         <li class="list"><a href="../../index.html">Home</a></li>
-                        <li class="list"><a href="../../assets/pages/about.html">About</a></li>
-                        <li class="list"><a href="#">Pages</a></li>
-                        <li class="list"><a href="../../assets/pages/shop.html">Shop</a></li>
-                        <li class="list"><a href="#">Projects</a></li>
-                        <li class="list"><a href="#">News</a></li>
+                        <li class="list"><a href="./about.html">About</a></li>
+                        <li class="dropdown">
+                                <button onclick="myFunction()" class="dropbtn">Pages</button>
+                                <div id="myDropdown" class="dropdown-content">
+                                  <a class="list" href="./blog_single/blog_single.html">Blog-single</a>
+                                  <a class="list" href="./portfolio_single/portfolio_single.html">Portfolio-single</a>
+                                  <a class="list" href="./service_single/service_single.html">Service_single</a>
+                                  <a class="list" href="./blog.html">Blog</a>
+                                  <a class="list" href="./contact.html">Contact</a>
+                                  <a class="list" href="./count.html">Count</a>
+                                  <a class="list" href="./portfolio.html">Portfolio</a>
+                                  <a class="list" href="./services.html">Services</a>
+                                  <a class="list" href="./team.html">Team</a>
+                                </div>
+                        </li>
+                        <li class="list"><a href="./shop.html">Shop</a></li>
+                        <li class="list"><a href="">Projects</a></li>
+                        <li class="list"><a href="">News</a></li>
                     </ul>
 
                     <form class="header__form">
@@ -53,9 +66,12 @@
                         <button class="header__search__btn"><img src="../images/main.images/Search__logo.svg"
                                 alt=""></button>
                         <button class="header__shop__btn">Cart (0)</button>
-                        <button class="header__shop"><img src="../images/main.images/Shop__logo.svg" alt=""></button>
+                        <button class="header__shop"><img src="../images/main.images/Shop__logo.svg"
+                                alt=""></button>
                     </form>
+
                 </nav>
+
             </div>
         </div>
     </header>
@@ -89,7 +105,7 @@
 
                                 <div class="info__view">
                                     <h2 class="info__view__title">Massege</h2>
-                                    <p class="info__view__suptitle">support@organic.com</p>
+                                    <p><a class="info__view__suptitle" href="mailto:needhelp@Organia.com">mailto:needhelp@Organia.com</a></p>
                                 </div>
                             </li>
 
@@ -98,7 +114,7 @@
 
                                 <div class="info__view">
                                     <h2 class="info__view__title">Contact Us</h2>
-                                    <p class="info__view__suptitle">+01 123 456 789</p>
+                                    <p><a class="info__view__suptitle" href="tel:+996555459645">+996555459645</a></p>
                                 </div>
                             </li>
                         </ul>
@@ -158,41 +174,56 @@
         <sectiuon class="pass">
             <div class="container">
                 <div class="pass_wrapper">
-                    <form class="pass_form">
+                    <form class="pass_form" id="contactForm">
                         <div class="pass_all_inp_wrapper">
                             <div class="pass_inp_wrapper">
                                 <p class="pass_inp_title">Full Name*</p>
-                                <input class="pass_inp" type="text" placeholder="Your Email Address">
+                                <input id="fullName" class="pass_inp" type="text" placeholder="Your Full Name" required>
                             </div>
                             <div class="pass_inp_wrapper">
                                 <p class="pass_inp_title">Your Email*</p>
-                                <input class="pass_inp" type="text" placeholder="example@yourmail.com">
+                                <input id="email" class="pass_inp" type="email" placeholder="example@yourmail.com" required>
                             </div>
                         </div>
                         <div class="pass_all_inp_wrapper">
-
                             <div class="pass_inp_wrapper">
                                 <p class="pass_inp_title">Company*</p>
-                                <input class="pass_inp" type="text" placeholder="yourcompany name here">
+                                <input id="company" class="pass_inp" type="text" placeholder="Your Company Name" required>
                             </div>
                             <div class="pass_inp_wrapper">
                                 <p class="pass_inp_title">Subject*</p>
-                                <input class="pass_inp" type="text" placeholder="how can we help">
+                                <input id="subject" class="pass_inp" type="text" placeholder="How can we help?" required>
                             </div>
-
-
                         </div>
                         <div class="pass_inp_wrapper">
                             <p class="pass_inp_title title_pass">Message*</p>
-                            <input class="pass_big_inp" type="text"
-                                placeholder="hello there,i would like to talk about how to...">
+                            <textarea id="message" class="pass_big_inp" placeholder="Write your message here" required></textarea>
                         </div>
+                    
+                        <button type="button" class="pass_btn" onclick="sendToWhatsApp()">Send Message</button>
                     </form>
-                    <button type="submit" class="pass_btn">Send Message</button>
+                    
                 </div>
             </div>
         </sectiuon>
         <!-- pass_end -->
+
+        <!-- Subscribe__start -->
+        <section class="subscribe">
+            <div class="container">
+                <center>
+                    <div class="subscribe__wrapper">
+                        <h6 class="subscribe__title">Subscribe to our Newsletter</h6>
+
+                        <form class="subscribe__form">
+                            <input class="subscribe__input" placeholder="Your text" type="text">
+                            <button type="submit" class="subscribe__btn">Subscribe</button>
+                        </form>
+                    </div>
+                </center>
+            </div>
+        </section>
+        <!-- Subscribe__end -->
     </main>
     <!-- main_end -->
 
@@ -241,10 +272,10 @@
 
                     <ul>
                         <li class="utility__suptitle pd">Style Guide</li>
-                        <li><a class="utility__suptitle" href="./assets/pages/error404.html">404 Not Found</a></li>
-                        <li><a class="utility__suptitle" href="./assets/pages/password.html">Password Protected</a></li>
-                        <li><a class="utility__suptitle" href="./assets/pages/licenses.html">Licences</a></li>
-                        <li><a class="utility__suptitle" href="./assets/pages/changelog.html">Changelog</a></li>
+                        <li><a class="utility__suptitle" href="./error404.html">404 Not Found</a></li>
+                        <li><a class="utility__suptitle" href="./password.html">Password Protected</a></li>
+                        <li><a class="utility__suptitle" href="./licenses.html">Licences</a></li>
+                        <li><a class="utility__suptitle" href="./changelog.html">Changelog</a></li>
                     </ul>
                 </div>
             </div>
@@ -255,6 +286,8 @@
         </center>
     </footer>
     <!-- Footer__end -->
+
+    <script src="../js/contact.js"></script>
 </body>
 
 </html>

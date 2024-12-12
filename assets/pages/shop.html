@@ -34,15 +34,28 @@
             <div class="header__wrapper">
                 <div class="header__name">
                     <img src="../images/main.images/Header__logo.svg" alt="#" class="header__logo">
-                    <p><a class="name" href="./index.html">Organick</a></p>
+                    <p><a class="name" href="../../index.html">Organick</a></p>
                 </div>
 
                 <nav class="header__nav">
-                    <ul class="header__pages">
+                    <ul class="header__list">
                         <li class="list"><a href="../../index.html">Home</a></li>
                         <li class="list"><a href="./about.html">About</a></li>
-                        <li class="list"><a href="">Pages</a></li>
-                        <li class="list"><a class="active" href="#">Shop</a></li>
+                        <li class="dropdown">
+                                <button onclick="myFunction()" class="dropbtn">Pages</button>
+                                <div id="myDropdown" class="dropdown-content">
+                                  <a class="list" href="./blog_single/blog_single.html">Blog-single</a>
+                                  <a class="list" href="./portfolio_single/portfolio_single.html">Portfolio-single</a>
+                                  <a class="list" href="./service_single/service_single.html">Service_single</a>
+                                  <a class="list" href="./blog.html">Blog</a>
+                                  <a class="list" href="./contact.html">Contact</a>
+                                  <a class="list" href="./count.html">Count</a>
+                                  <a class="list" href="./portfolio.html">Portfolio</a>
+                                  <a class="list" href="./services.html">Services</a>
+                                  <a class="list" href="./team.html">Team</a>
+                                </div>
+                        </li>
+                        <li class="list"><a href="./shop.html">Shop</a></li>
                         <li class="list"><a href="">Projects</a></li>
                         <li class="list"><a href="">News</a></li>
                     </ul>
@@ -52,8 +65,10 @@
                         <button class="header__search__btn"><img src="../images/main.images/Search__logo.svg"
                                 alt=""></button>
                         <button class="header__shop__btn">Cart (0)</button>
-                        <button class="header__shop"><img src="../images/main.images/Shop__logo.svg" alt=""></button>
+                        <button class="header__shop"><img src="../images/main.images/Shop__logo.svg"
+                                alt=""></button>
                     </form>
+
                 </nav>
             </div>
         </div>
@@ -148,10 +163,10 @@
 
                     <ul>
                         <li class="utility__suptitle pd">Style Guide</li>
-                        <li><a class="utility__suptitle" href="./assets/pages/error404.html">404 Not Found</a></li>
-                        <li><a class="utility__suptitle" href="./assets/pages/password.html">Password Protected</a></li>
-                        <li><a class="utility__suptitle" href="./assets/pages/licenses.html">Licences</a></li>
-                        <li><a class="utility__suptitle" href="./assets/pages/changelog.html">Changelog</a></li>
+                        <li><a class="utility__suptitle" href="./error404.html">404 Not Found</a></li>
+                        <li><a class="utility__suptitle" href="./password.html">Password Protected</a></li>
+                        <li><a class="utility__suptitle" href="./licenses.html">Licences</a></li>
+                        <li><a class="utility__suptitle" href="./changelog.html">Changelog</a></li>
                     </ul>
                 </div>
             </div>
