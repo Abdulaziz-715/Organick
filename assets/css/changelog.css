@@ -58,7 +58,7 @@
     font-size: 25px;
 }
 
-.header_search_btn {
+.header__search__btn {
     width: 56px;
     height: 56px;
     cursor: pointer;
@@ -73,7 +73,7 @@
     top: 5px;
 }
 
-.header_shop_btn {
+.header__shop__btn {
     width: 159px;
     height: 66px;
     border: 1px solid rgb(224, 224, 224);
@@ -99,6 +99,15 @@
     position: absolute;
     left: 400px;
     top: 5px;
+}
+
+.dropbtn {
+    background: transparent;
+    color: var(--dark-primary);
+    font-family: Roboto;
+    font-size: 20px;
+    font-weight: 700;
+    line-height: 23px;
 }
 
 /*  hero  */
