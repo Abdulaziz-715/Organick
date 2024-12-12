@@ -1424,7 +1424,7 @@
     }
 
     .subscribe__wrapper{
-        margin: 0px;
+        margin-top: 300px;
         padding: 0px 20px;
     }
 
@@ -1457,6 +1457,7 @@
     .new__leftinfo{
         width: 613px;
         height: 330px;
+        margin: 0px 20px;
         position: absolute;
         left: 50%;
         transform: translateX(-50%);
@@ -1544,7 +1545,7 @@
     .eco__info{
         padding: 0px;
         text-align: center;
-        height: 800px;
+        height: 600px;
     }
 
     .view__left{
@@ -1553,6 +1554,14 @@
 
     .view__right{
         text-align: center;
+    }
+
+    .product__title{
+        padding: 0px;
+    }
+
+    .about__icon{
+        display: none;
     }
 
 
