@@ -82,3 +82,11 @@ button {
 input{
     outline: none;
 }
+
+.menu-list li a{
+    color: aliceblue;
+    font-family: Roboto;
+    font-size: 20px;
+    font-weight: 700;
+    line-height: 23px;
+}
