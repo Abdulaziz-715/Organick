@@ -27,22 +27,34 @@
 
 </head>
 
-<body>
-    <!-- Header__start -->
+<body>  <!-- Header__start -->
     <header class="header">
         <div class="container">
             <div class="header__wrapper">
                 <div class="header__name">
                     <img src="../../images/main.images/Header__logo.svg" alt="#" class="header__logo">
-                    <p><a class="name" href="./index.html">Organick</a></p>
+                    <p><a class="name" href="/index.html">Organick</a></p>
                 </div>
 
                 <nav class="header__nav">
                     <ul class="header__list">
-                        <li class="list"><a class="active" href="#">Home</a></li>
-                        <li class="list"><a href="./assets/pages/about.html">About</a></li>
-                        <li class="list"><a href="">Pages</a></li>
-                        <li class="list"><a href="./assets/pages/shop.html">Shop</a></li>
+                        <li class="list"><a class="active" href="/index.html">Home</a></li>
+                        <li class="list"><a href="../about.html">About</a></li>
+                        <li class="dropdown">
+                                <button onclick="myFunction()" class="dropbtn">Pages</button>
+                                <div id="myDropdown" class="dropdown-content">
+                                  <a class="list" href="./assets/pages/blog_single/blog_single.html">Blog-single</a>
+                                  <a class="list" href="./assets/pages/portfolio_single/portfolio_single.html">Portfolio-single</a>
+                                  <a class="list" href="./assets/pages/service_single/service_single.html">Service_single</a>
+                                  <a class="list" href="./assets/pages/blog.html">Blog</a>
+                                  <a class="list" href="./assets/pages/contact.html">Contact</a>
+                                  <a class="list" href="./assets/pages/count.html">Count</a>
+                                  <a class="list" href="./assets/pages/portfolio.html">Portfolio</a>
+                                  <a class="list" href="./assets/pages/services.html">Services</a>
+                                  <a class="list" href="./assets/pages/team.html">Team</a>
+                                </div>
+                        </li>
+                        <li class="list"><a href="../shop.html">Shop</a></li>
                         <li class="list"><a href="">Projects</a></li>
                         <li class="list"><a href="">News</a></li>
                     </ul>
@@ -52,14 +64,29 @@
                         <button class="header__search__btn"><img src="../../images/main.images/Search__logo.svg"
                                 alt=""></button>
                         <button class="header__shop__btn">Cart (0)</button>
-                        <button class="header__shop"><img src="../../images/main.images/Shop__logo.svg" alt=""></button>
+                        <button class="header__shop"><img src="../../images/main.images/Shop__logo.svg"
+                                alt=""></button>
                     </form>
+
                 </nav>
 
+                <div class="menu">
+                    <input type="checkbox" id="burger-checkbox" class="burger-checkbox">
+                    <label for="burger-checkbox" class="burger"></label>
+                    <ul class="menu-list">
+                        <li class="list"><a class="active" href="#">Home</a></li>
+                        <li class="list"><a href="./assets/pages/about.html">About</a></li>
+                        <li class="list"><a href="#">Pages</a></li>
+                        <li class="list"><a href="./assets/pages/shop.html">Shop</a></li>
+                        <li class="list"><a href="">Projects</a></li>
+                        <li class="list"><a href="">News</a></li>
+                    </ul>
+                </div>
             </div>
         </div>
     </header>
     <!-- Header__end -->
+
     <!-- main  start -->
     <main>
         <!-- hero_start -->
@@ -99,7 +126,7 @@
                         their infancy. Various versions have evolved over the years</p>
                     <ul class="organik_list">
                         <li>
-                            <img src="../../images/main.images/organik_img_one.png" alt="">
+                            <img class="image" src="../../images/main.images/organik_img_one.png" alt="">
                         </li>
                         <li class="organik_list_item">
                             <h3 class="organik_list_title">Why Organic</h3>
@@ -116,7 +143,7 @@
                             </p>
                         </li>
                         <li>
-                            <img src="../../images/main.images/organik_img_two.png" alt="">
+                            <img class="image" src="../../images/main.images/organik_img_two.png" alt="">
                         </li>
                     </ul>
                     <h3 class="organik_titlee">We farm your land</h3>

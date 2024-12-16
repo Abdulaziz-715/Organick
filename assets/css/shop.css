@@ -33,7 +33,14 @@
     align-items: center;
     gap: 40px;
 }
-
+.input{
+    outline: none;
+    margin-top: 50px;
+    border-radius: 17px;
+    width: 350px;
+    height: 35px;
+    padding-left: 20px;
+}
 .list a {
     color: var(--dark-primary);
     font-family: Roboto;

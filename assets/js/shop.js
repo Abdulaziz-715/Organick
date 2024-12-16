@@ -218,3 +218,56 @@ window.onclick = function (event) {
         }
     }
 }
+var shopSearch = document.querySelector(".input")
+function productRes(item) {
+    var card = document.createElement("li");
+    card.classList.add("fruit_item_list");
+    var category = document.createElement("p")
+    category.classList.add("fruit_btn")
+    category.textContent = item.category
+    var foto = document.createElement("img")
+    foto.classList.add("fruit_img")
+    foto.setAttribute("src", item.foto)
+    var title = document.createElement("h3")
+    title.textContent = item.title
+    title.classList.add("fruit_title")
+    var line = document.createElement("div")
+    line.classList.add("box_one")
+    var cardView = document.createElement("div")
+    cardView.classList.add("box")
+    var price = document.createElement("p")
+    price.classList.add("fruit_sum")
+    price.textContent = item.discount
+    var discount = document.createElement("span")
+    discount.textContent = item.price
+    var review = document.createElement("div")
+    review.classList.add("card__stars")
+    var stars = document.createElement("img")
+    var stars_2 = document.createElement("img")
+    var stars_3 = document.createElement("img")
+    var stars_4 = document.createElement("img")
+    var stars_5 = document.createElement("img")
+    stars.setAttribute("src", item.starts)
+    stars_2.setAttribute("src", item.starts)
+    stars_3.setAttribute("src", item.starts)
+    stars_4.setAttribute("src", item.starts)
+    stars_5.setAttribute("src", item.starts)
+  
+  
+    wrapper.appendChild(card)
+    card.appendChild(category)
+    card.appendChild(foto)
+    card.appendChild(title)
+    card.appendChild(line)
+    card.appendChild(cardView)
+    cardView.appendChild(price)
+    cardView.appendChild(review)
+    review.appendChild(stars)
+    review.appendChild(stars_2)
+    review.appendChild(stars_3)
+    review.appendChild(stars_4)
+    review.appendChild(stars_5)
+    price.appendChild(discount)
+  
+  }
+  
