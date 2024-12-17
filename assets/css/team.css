@@ -377,3 +377,171 @@ padding-top: 42px;
 .end span{
     font-weight: 1000;
 }
+
+
+/* Media */
+
+@media (max-width: 1500px) {
+
+    /* container */
+
+    .container {
+        max-width: 1500px;
+        padding: 0px 30px;
+    }
+
+    .header__wrapper {
+        display: flex;
+        flex-wrap: wrap;
+    }
+
+    .subscribe__wrapper {
+        width: 100%;
+    }
+
+    .organic_list{
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: center;
+    }
+
+
+}
+
+@media (max-width: 1300px) {
+
+    /* container */
+
+    .container {
+        max-width: 1300px;
+        padding: 0px 30px;
+    }
+
+    .offcard__wrapper {
+        display: flex;
+        flex-wrap: wrap;
+    }
+
+    .header__form {
+        display: none;
+    }
+
+    .menu {
+        display: flex;
+    }
+
+    .header__nav {
+        display: none;
+    }
+
+}
+
+@media (max-width: 1150px) {
+
+    /* container */
+
+    .container {
+        max-width: 1150px;
+        padding: 0px 30px;
+    }
+
+    .subscribe__wrapper {
+        display: flex;
+        gap: 100px;
+    }
+
+    .subscribe__form {
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: start;
+    }
+
+    .footer__wrapper {
+        display: flex;
+        flex-wrap: wrap;
+        gap: 50px;
+        justify-content: start;
+    }
+
+    .footer__organick {
+        border: none;
+    }
+}
+
+@media (max-width: 1050px) {
+
+    /* container */
+
+    .container {
+        max-width: 1050px;
+        padding: 0px 30px;
+    }
+
+    .assortment__wrapper {
+        display: flex;
+        flex-wrap: wrap;
+    }
+
+    .organic_suptitle{
+        width: 100%;
+    }
+
+
+}
+
+@media (max-width: 850px) {
+
+    /* container */
+
+    .container {
+        max-width: 850px;
+        padding: 0px 30px;
+    }
+
+    .subscribe__input{
+        width: 100%;
+    }
+
+    .subscribe__wrapper{
+        margin-top: 300px;
+        padding: 0px 20px;
+    }
+
+
+}
+
+@media (max-width: 700px) {
+
+    /* container */
+
+    .container {
+        max-width: 700px;
+        padding: 0px 30px;
+    }
+
+    .subscribe__title{
+        display: none;
+    }
+
+    .organick__text{
+        width: 100%;
+    }
+
+
+}
+
+@media (max-width: 600px) {
+
+    /* container */
+
+    .container {
+        max-width: 600px;
+        padding: 0px 30px;
+    }
+
+    .footer__organick{
+        width: 100%;
+    }
+
+
+}
